@@ -1,0 +1,37 @@
+{
+  "name": "jlinx-identification",
+  "version": "1.0.0",
+  "description": "identification on jlinx documents",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jlinclabs/jlinx-identification.git"
+  },
+  "keywords": [
+    "jlinx"
+  ],
+  "author": "Jared Grippe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlinclabs/jlinx-identification/issues"
+  },
+  "homepage": "https://github.com/jlinclabs/jlinx-identification#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "configstore": "^5.0.1",
+    "debug": "^4.3.4"
+  },
+  "peerDependencies": {
+    "jlinx-client": "github:jlinclabs/jlinx-client"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tape": "^5.5.3",
+    "tmp-promise": "^3.0.3"
+  }
+}
